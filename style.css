@@ -1,0 +1,172 @@
+
+     *{
+        margin:0px;
+        padding: 0px;
+    } 
+    .body{
+        background-color: antiquewhite;
+    }
+    nav{
+        background-color: black;
+        /* padding: 23px; */
+        display:flex;
+        color: white;
+        font-size: 30px;
+    }
+    .holding{
+        background-color:black;
+        padding: 15px;
+    display: grid;
+    grid-template-columns:1fr 2fr 1fr 1fr ;
+    grid-template-areas:
+   "logo data searchbar item"
+    ;
+}
+@media query and (max-width-){}
+   .logo{
+    /* background-color: aqua; */
+    grid-area: logo;
+    font-size: 60px;
+    display: flex;
+   align-items: center; 
+   /* gap: 8px; */
+   margin-left: 60px;
+   }
+ .data{
+   /* background-color:palegreen;   */
+   grid-area: data;
+  display: flex; 
+  align-items: center;
+  justify-content: flex-start;
+  gap: 200px;
+}
+.data a{
+    display:block;
+     /* background-color: blue; */
+    text-decoration:none ;
+    justify-content: space-around;
+    color: white;
+    font-size: 30px;
+    
+}
+.data a:hover{
+    background-color:rebeccapurple;
+    padding: 20px;
+    border-radius: 30px;
+    font-size: 23px;
+}
+
+.searchbar{
+    grid-area: searchbar;
+     /* background-color: aqua;  */
+    display:flex;
+    justify-content: center;
+    margin-left:30px;
+}
+
+input[type=text]
+{
+ padding: 12px; border: 19px;   
+ border-radius: 49px;
+ width: 550px; 
+color: black;
+text-align: start;
+font-size: 23px;
+margin-left: 130px;
+}
+
+.item{
+    /* background-color: aqua; */
+grid-area: item;
+display: flex;
+justify-content: space-evenly;
+align-items:center;
+gap: 23px;
+margin-left: 40px;
+}
+
+.item a{
+    text-decoration:none ;
+    color: white;
+}
+.item a:hover{
+    background-color:rebeccapurple;
+    padding: 20px;
+    border-radius: 30px;
+    font-size: 23px;
+}
+   /* placard styling */
+.placard{
+    background-color:rgb(201, 201, 201);
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    margin-bottom: 60px;
+ height: 55vh;
+}
+.placard img{
+    border-radius: 50px;
+    width: 60vw;
+    padding: 10px;
+}
+.image img{
+padding: 20px;
+margin-top:180px;
+margin-left: 180px;
+background-color: aliceblue;
+ width: 800px;
+}
+.heading{
+    font-size: 70px;
+    padding-top:10px;
+    margin-left: 30px;
+}
+.content
+{
+padding: 25px;
+margin-left: 200px;
+font-size: 50px;
+justify-content: space-around;
+
+}
+.container{
+    display: grid;
+  grid-gap: 8px;
+  grid-template-columns: repeat(3,1fr); 
+}
+
+  .foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+    font-size: 40px;
+    background-color: black;
+  }
+  .List{
+    display: flex;
+    align-content: center;
+  }
+  .List ul{
+    margin-left: 200px;
+  padding: 23px;}
+  .List ul h1{
+color: white;
+margin-bottom: 30px;
+  }
+  .List ul li{
+    list-style-type: none;
+    padding: 10px;
+    color: grey;
+  }
+  .end ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .end ul li{
+    padding: 50px;
+    list-style-type: none;
+    font-size: 30px;
+  }
+

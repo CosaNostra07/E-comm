@@ -22,14 +22,13 @@
    "logo data searchbar item"
     ;
 }
-@media query and (max-width-){}
    .logo{
     /* background-color: aqua; */
     grid-area: logo;
     font-size: 60px;
     display: flex;
    align-items: center; 
-   /* gap: 8px; */
+   gap: 8px;
    margin-left: 60px;
    }
  .data{
